@@ -3,6 +3,12 @@
 Roll No : 2025DA04162
 | Name : Kumar Abigael Rachel Sunil Wilhelma
 
+## GitHub Repository Link
+**Repository:** https://github.com/AbigaelKumar002/ML-Assignment-2.git
+
+## Streamlit app Link
+** Link:** https://ml-assignment-2-2025da04162.streamlit.app/
+
 ## a. Problem Statement
 
 The objective of this assignment is to build and evaluate multiple machine
@@ -58,11 +64,7 @@ The feature values are standardized using `StandardScaler`. The scaler is
 fitted only on the training data and then applied to both the training and
 test data.
 
-## c. GitHub Repository Link
-
-**Repository:** https://github.com/AbigaelKumar002/ML-Assignment-2.git
-
-## d. Models Used
+## c. Models Used
 
 Five classification models are trained and evaluated on the same dataset
 and held-out test set:
@@ -90,7 +92,7 @@ Since this is a 10-class classification problem, Precision, Recall, and F1
 are calculated using weighted averages. AUC is calculated using a
 one-vs-rest approach with weighted averaging.
 
-## e. Model Comparison
+## d. Model Comparison
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---|---|---|---|---|---|
@@ -139,7 +141,7 @@ the highest accuracy and F1 score.
 
 ---
 
-## f. Model Performance Observations
+## e. Model Performance Observations
 
 | ML Model Name | Observation about model performance |
 |---|---|
