@@ -136,3 +136,16 @@ overall performance on this test set.
 
 Random Forest achieves a slightly higher AUC, while Logistic Regression has
 the highest accuracy and F1 score.
+
+---
+
+## f. Model Performance Observations
+
+| ML Model Name | Observation about model performance |
+|---|---|
+| Logistic Regression | Logistic Regression gives the highest accuracy, F1 score, and MCC among the five models. It achieves an accuracy of 0.9722 on the held-out test data. |
+| Decision Tree | The Decision Tree has the lowest performance among the five models, with an accuracy of 0.8167. Its performance is lower than the ensemble Random Forest, which uses multiple decision trees. |
+| kNN | kNN performs strongly on the handwritten digit data, achieving an accuracy of 0.9639. Since similar digit images can have similar pixel-intensity patterns, distance-based classification works well for this dataset. |
+| Naive Bayes | Gaussian Naive Bayes has the lowest accuracy at 0.7417. The model assumes conditional independence between features, which can be a limitation when working with pixel features that are related to neighbouring pixels. |
+| Random Forest (Ensemble) | Random Forest achieves an accuracy of 0.9639 and the highest AUC of 0.9992. Using an ensemble of decision trees improves considerably over the single Decision Tree model. |
+| **Overall Winner for your dataset?** | **Logistic Regression** — based on accuracy, F1 score, and MCC, it gives the best overall performance on this test set. Random Forest achieves a slightly higher AUC, while Logistic Regression has the highest accuracy and F1 score. |
