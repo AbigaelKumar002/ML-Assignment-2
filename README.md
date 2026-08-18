@@ -1,4 +1,7 @@
-# ML Assignment 2 — Handwritten Digit Classification
+# ML Assignment 2 - Handwritten Digit Classification
+
+Roll No : 2025DA04162
+Name : Kumar Abigael Rachel Sunil Wilhelma
 
 ## a. Problem Statement
 
