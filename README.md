@@ -32,7 +32,7 @@ Each instance contains 64 numerical features representing the pixel intensities 
 
 The dataset is divided into training and testing sets using an 80/20 split.
 
-```python
+python
 train_test_split(
     X,
     y,
